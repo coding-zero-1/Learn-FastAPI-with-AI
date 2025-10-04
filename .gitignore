@@ -1,0 +1,31 @@
+# Python Bytecode (compiled)
+__pycache__/
+*.pyc
+
+# Virtual Environment
+# This line excludes your specific virtual environment directory.
+learn/
+.venv/
+venv/
+env/
+
+# Dependencies file (good practice for sharing project dependencies)
+# You'll generate this on a later day.
+requirements.txt
+
+# Environment-specific Files
+.env
+.flaskenv
+
+# Editor/IDE Files (e.g., VS Code, PyCharm)
+.vscode/
+.idea/
+
+# Testing and Coverage
+.pytest_cache/
+htmlcov/
+.coverage
+
+# Logs and Data
+*.log
+*.sqlite
